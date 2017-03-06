@@ -1,4 +1,7 @@
 module.exports = {
+  debug: true,
+  devtool: 'inline-source-map',
+  noInfo: false,
   entry: [
     './src/index.js'
   ],
